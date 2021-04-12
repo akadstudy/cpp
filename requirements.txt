@@ -1,0 +1,4 @@
+sphinx<3
+jupyter-book==0.7.1
+matplotlib
+numpy
