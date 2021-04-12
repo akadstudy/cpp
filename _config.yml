@@ -41,8 +41,8 @@ launch_buttons:
   thebelab                  : false  # Add a thebelab button to pages (requires the repository to run on Binder)
 
 repository:
-  url                       : https://github.com/akadstudy/kon  # The URL to your book's repository
-  path_to_book              : "kon"  # A path to your book's folder, relative to the repository root.
+  url                       : https://github.com/akadstudy/cpp  # The URL to your book's repository
+  path_to_book              : "cpp"  # A path to your book's folder, relative to the repository root.
   branch                    : master  # Which branch of the repository should be used when creating links
 
 #######################################################################################
