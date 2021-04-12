@@ -1,17 +1,16 @@
-# Modul Übersicht 
+# Zusammenfassungen 
 
-- **Konstruktion**
-	- Technisches Zeichnen (KON101)
-	- Normzahlen, Toleranzen und Passungen; Klebe-, Löt- und Schweißverbindungen (MAE101)
-	- Niet-, Schrauben-, Bolzen- und Stiftverbindungen (MAE102)
-	- Federn, Achsen, Wellen, Welle-Nabe-Verbindungen (MAE103)
-	- Produktplanung und Produktentwicklung (KON201)
-	- Methodenandwendung in der Konzeptionsphase(KON211)
-	- Kupplungen und Bremsen (MAE201)
-	- Wälzlager, Gleitlager (MAE202)
-	- Zahnrad- und Stirnradgetriebe (MAE203)
-	- Kegelrad- und Schneckengetriebe (MAE204)
-	- Hüllgetriebe (MAE205)
-	- Virtuelle Produktentwicklung (CAD101)
-	- CAD-Systeme (CAD102)
-	- Computergestütztes Entwerfen und Konstruieren (CAD201)
+Diese beinhalten:
+
+- **Programmieren**
+	- Vom Datenmodell zur Speicherung in Dateien (DAO101)
+	- Zahlensysteme und Codes (ELT301)
+	- Boolesche Algebra und kombinatorische Schaltkreise (ELT302)
+	- Sequenzielle Schaltungen, Schaltwerke und Simulationssoftware
+	- Grundlagen der Programmierung (PRG101)
+	- Hardware (WIN103)
+	- Software (WIN104)
+	- Rechnerverbund und Datenkommunikation (WIN106)
+	- **Einführung in die Programmierung mit C++ (CPP101)**
+	- **Programmierung in C (CPP109)**
+	- **Programmieren in C++ (CPP110)**
