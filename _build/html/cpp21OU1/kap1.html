@@ -83,6 +83,11 @@
    CPP21 Heft 1 Fragen und Antworten
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../cpp101/index.html">
+   CPP21 Heft 1 Fragen und Antworten
+  </a>
+ </li>
  <li class="toctree-l1 current active">
   <a class="reference internal" href="index.html">
    CPP21 Onlineübung 1
@@ -240,6 +245,37 @@
                 
   <div class="section" id="kapitel-1">
 <h1>Kapitel 1<a class="headerlink" href="#kapitel-1" title="Permalink to this headline">¶</a></h1>
+<p>Was gibt das folgende Programm aus?</p>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="kt">int</span> <span class="nf">methode1</span><span class="p">(</span><span class="kt">int</span><span class="o">*</span> <span class="n">p</span><span class="p">,</span> <span class="kt">int</span> <span class="n">i1</span><span class="p">){</span>
+    <span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span> <span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">i1</span><span class="p">;</span> <span class="n">i</span><span class="o">*=</span><span class="mi">2</span><span class="p">)</span>
+        <span class="o">*</span><span class="n">p</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">;</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&quot;%i&quot;</span><span class="p">,</span> <span class="o">*</span><span class="n">p</span> <span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">i</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="n">methode</span> <span class="p">(){</span>
+    <span class="kt">int</span> <span class="n">i1</span> <span class="o">=</span> <span class="mi">8</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">i2</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+    <span class="n">i1</span> <span class="o">=</span> <span class="n">methode1</span><span class="p">(</span><span class="o">&amp;</span><span class="n">i2</span><span class="p">,</span> <span class="n">i1</span><span class="p">);</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">i1= %i&quot;</span> <span class="p">,</span> <span class="n">i1</span><span class="p">);</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">i2= %i&quot;</span> <span class="p">,</span> <span class="n">i2</span><span class="p">);</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+<p>Start mit i1 = 8
+Weiter mit i2 = 2
+i1 wird in methode1 geschoben:</p>
+<ul class="simple">
+<li><p>aus i2 wird die adresse *p mit dem Wert 2</p></li>
+<li><p>für i1 is der Wert 8
+Die Schleife beginnt mit 1</p></li>
+<li><p>1+1=2</p></li>
+</ul>
+<p>Dann wird die Schleife neu gestartet und vorher 2 auf 3 addiert = 5</p>
 </div>
 
     <script type="text/x-thebe-config">

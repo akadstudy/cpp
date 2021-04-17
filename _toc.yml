@@ -4,6 +4,14 @@
   sections:
   - file: cpp110/kap1
 
+- file: cpp101/index
+  sections:
+  - file: cpp101/kap2
+  - file: cpp101/kap3
+  - file: cpp101/kap4
+  - file: cpp101/kap5
+
+
   
 - file: cpp21OU1/index
   sections:
